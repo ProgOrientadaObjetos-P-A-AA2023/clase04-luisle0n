@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package paquete3;
 
 
@@ -65,6 +61,8 @@ public class FacturaTelefonica {
     @Override
     public String toString(){
         String cadena = obtenerNumeroTelefono();
+         // String cadena = numeroTelefono();
+         // Estas dos lineas de codigo son iguales 
         return cadena;
     }
     
